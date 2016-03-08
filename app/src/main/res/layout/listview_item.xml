@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="0dp"
+    android:layout_marginTop="0dp"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:background="@drawable/customselector">
+
+    <ImageView
+        android:id="@+id/fruitImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingRight="30dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="30dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/fruitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fruitImg"
+        android:layout_centerVertical="true"
+        android:text="Cherry"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="20dp"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#ffffff"
+        android:text="cal"
+        android:paddingRight="20dp" />
+</RelativeLayout>
